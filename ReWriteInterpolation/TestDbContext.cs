@@ -18,7 +18,7 @@ namespace ReWriteInterpolation
         {
             optionsBuilder
                 .UseLoggerFactory(MyLoggerFactory)
-                .UseSqlServer("Server=.\\SQLEXPRESS;Initial Catalog=Test;Persist Security Info=False;Integrated Security=True;MultipleActiveResultSets=False;Connection Timeout=30;")
+                .UseSqlServer("Server=.;Initial Catalog=Test;Persist Security Info=False;Integrated Security=True;MultipleActiveResultSets=False;Connection Timeout=30;")
                 .ConfigureWarnings(warnings => warnings.Throw(RelationalEventId.QueryClientEvaluationWarning));
         }
         

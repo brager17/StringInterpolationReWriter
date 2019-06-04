@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringInterpolationReWriter", "ReWriteInterpolation\ReWriteInterpolation.csproj", "{5B0F54A8-38A0-4816-BFF7-CC6481018660}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReWriterInterpolationTests", "ReWriterInterpolationTests\ReWriterInterpolationTests.csproj", "{73A66E82-9D36-4D2A-A88C-A3A13C3C3B1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B0F54A8-38A0-4816-BFF7-CC6481018660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B0F54A8-38A0-4816-BFF7-CC6481018660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B0F54A8-38A0-4816-BFF7-CC6481018660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B0F54A8-38A0-4816-BFF7-CC6481018660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73A66E82-9D36-4D2A-A88C-A3A13C3C3B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73A66E82-9D36-4D2A-A88C-A3A13C3C3B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73A66E82-9D36-4D2A-A88C-A3A13C3C3B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73A66E82-9D36-4D2A-A88C-A3A13C3C3B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
